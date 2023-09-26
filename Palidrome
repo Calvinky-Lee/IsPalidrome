@@ -1,0 +1,10 @@
+#2
+
+word = "10201"
+def is_palidrone(letter):
+    return letter == letter[ : :-1]
+
+
+print(is_palidrone(word))
+
+
